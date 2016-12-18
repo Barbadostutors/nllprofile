@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body  {
+  background-image: url("../img/hobbies.jpg");
+  height:900px;
+  width: 1000px; margin: 10;
+  padding: 5;
+      }
+
+.page {
+  max-width: 800px;
+  margin
+.column1of3, .column2of3, .column3of3 {
+width: 300px;
+float: left;
+margin: 10px;}
+#gradient {
+/* fallback color */
+background-color: #66cccc;
+
+/* Firefox 3.6+ */
+background-image: -moz-linear-gradient(#336666,
+#66cccc);
+/* Safari 4+, Chrome 1+ */
+background-image: -webkit-gradient(linear, 0% 0%,
+0% 100%, from(#66cccc), to(#336666));
+/* Safari 5.1+, Chrome 10+ */
+background-image: -webkit-linear-gradient(#336666,
+#66cccc);
+/* Opera 11.10+ */
+background-image: -o-linear-gradient(#336666,
+#66cccc);
+height: 150px;
+width: 300px;}
+}
+<style>
+div.background {
+    border: 2px solid black;
+}
+
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.floating-box {
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    border: 3px solid #000000;
+
+}
+
+
+
+
+

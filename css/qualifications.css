@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+body {
+  background-image: url("../img/education.png");
+  font-family: 'Times New Roman', serif;
+  color: #000000;
+  margin: 1;
+  align-items: center;
+  padding: 1;
+      }
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto 10px auto;}
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 1.4em;}
+
+a {
+    text-decoration: none;}
+
+
+  /*****************  No JS ***************/
+#billboard {text-align: center;}
+.js-warning {display: none;}
+
+.no-js .js-warning {
+  display: block;
+  border: 3px solid #fff;
+  text-align: center;
+  background-color: #fff;
+  color: #db5391;
+  padding: 10px;}
+
