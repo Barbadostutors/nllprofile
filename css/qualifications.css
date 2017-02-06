@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
 body {
-  background-image: url("../img/education.png");
+ /** background-image: url("../img/education.png");**/
   font-family: 'Times New Roman', serif;
   color: #000000;
   margin: 1;
