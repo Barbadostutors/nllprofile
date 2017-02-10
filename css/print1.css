@@ -384,7 +384,7 @@ h4>.fa {
 
 .card-wrapper {
   padding: 5px auto !important;
-  position: relative;
+  position: center;
 }
 
 .enumeration:not(:last-child):after {
