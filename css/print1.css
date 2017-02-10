@@ -1,3 +1,10 @@
+.img-round
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
 .clear-margin {
   margin: 0;
 }
@@ -383,8 +390,8 @@ h4>.fa {
 }
 
 .card-wrapper {
-  padding: 85% auto !important;
-  position: center;
+  padding: 50% auto !important;
+  position: relative;
 }
 
 .enumeration:not(:last-child):after {
