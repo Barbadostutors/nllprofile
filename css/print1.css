@@ -467,6 +467,7 @@ h4>.fa {
   .container {
     max-width: 100%;
     width: 100%;
+    position: relative;
   }
   .contact-details .detail .icon {
     color: #888!important;
