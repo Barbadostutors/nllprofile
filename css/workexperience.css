@@ -7,7 +7,6 @@ body {
  align-items: center;
  padding: 1;
  overflow: none;
-
      }
 
 .page {
@@ -24,44 +23,58 @@ button {
   border: none;}
 
 body, button {
-    font-family: 'Times New Roman', serif;}
-h1 {
+    font-family: 'Times New Roman',serif;}
+h1 
+{
   text-align: center;
   background-repeat: no-repeat;
   text-indent: 100%;
   white-space: wrap;
-  overflow: hidden;}
+  overflow: hidden;
+}
 h2, h3 {
   font-weight: normal;
-  margin: 0;}
-h2{
+  margin: 0;
+}
+h2
+{
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 230%;
   line-height: 1em;
-   background-color: #FFF;
-  padding: 20px 0 0 20px;}
-h3{
+  background-color: #FFF;
+  padding: 20px 0 0 40px;
+ }
+
+h3
+{
   font-size: 90%;
-  letter-spacing: 0.2em;}
+  letter-spacing: 0.2em;
+}
 
-p {
+p 
+{
   font-family: 'Quattrocento Sans', sans-serif;
-  line-height: 1.4em;}
+  line-height: 1.4em;
+}
 
-a {
-    text-decoration: none;}
+a 
+{
+    text-decoration: none;
+}
 
-button {
+button 
+{
   font-size: 90%;
   text-align: left;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
   /*****************  No JS ***************/
 #billboard {text-align: center;}
 .js-warning {display: none;}
 
-.no-js .js-warning {
+  .no-js .js-warning {
   display: block;
   border: 3px solid #fff;
   text-align: center;
