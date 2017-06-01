@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
-body {
+body 
+    {
  background-image:url('..img/workexperience.jpg');
  margin: 1;
  align-items: center;
@@ -9,21 +10,29 @@ body {
  overflow: none;
      }
 
-.page {
+.page
+     {
   max-width: 1000px;
-  margin: 0 auto 10px auto;}
+  margin: 0 auto 10px auto;
+     }
 
-.panel {
-  background-color:#FFF;
+.panel 
+     {
+  background-color:#fff;
   color: #fff;
   box-shadow: 5px 4px 5px rgba(0, 0.2, 0, 0.2);
-  overflow: auto;}
+  overflow: auto;
+     }
 
-button {
-  border: none;}
+button 
+     {
+  border: none;
+     }
 
-body, button {
-    font-family: 'Times New Roman',serif;}
+body, button 
+     {
+    font-family: 'Times New Roman',serif;
+     }
 h1 
 {
   text-align: center;
@@ -32,18 +41,21 @@ h1
   white-space: wrap;
   overflow: hidden;
 }
-h2, h3 {
+
+h2, h3 
+{
   font-weight: normal;
   margin: 0;
 }
+
 h2
 {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-size: 230%;
   line-height: 1em;
-  background-color: #FFF;
-  padding: 20px 0 0 40px;
+  background-color: #fff;
+  padding: 20px 0 0 20px;
  }
 
 h3
